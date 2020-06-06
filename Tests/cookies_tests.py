@@ -8,7 +8,7 @@ mp = MainPage
 class Test(BaseTest):
 
     def test_Cookie(self):
-        print('Cookie Tests')
+        print('Test Case 1: Sprawdza pojawienie się cookisów i akceptuje')
         mp.assertCookieText(self)
         time.sleep(2)
         mp.acceptCookies(self)
